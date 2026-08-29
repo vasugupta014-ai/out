@@ -1,0 +1,31 @@
+0000000000000000000000000000000000000000 c31b1a4f9effb87e820be6098a5bae491e7bd27f vasugupta014-ai <vasugupta014@gmail.com> 1785686054 +0530	commit (initial): Initial commit
+c31b1a4f9effb87e820be6098a5bae491e7bd27f 3c5581d1ee490165b9c76f427279b763836c3c73 vasugupta014-ai <vasugupta014@gmail.com> 1785745376 +0530	commit: page transition
+3c5581d1ee490165b9c76f427279b763836c3c73 42f603f63d84f2812d311acee9be6f6b45feba8d vasugupta014-ai <vasugupta014@gmail.com> 1785745789 +0530	commit: dashboard route changed
+42f603f63d84f2812d311acee9be6f6b45feba8d 0bc44af2c8bbd7c14c3c3935c7d9cf5a4cf42f31 vasugupta014-ai <vasugupta014@gmail.com> 1785748652 +0530	commit: sidebar close on mobile
+0bc44af2c8bbd7c14c3c3935c7d9cf5a4cf42f31 deb20f33010c67e3f1909dec0b2de691049a44db vasugupta014-ai <vasugupta014@gmail.com> 1785772835 +0530	commit: nothing important
+deb20f33010c67e3f1909dec0b2de691049a44db 4abe92e2c5323cdcf028db268599292fe1a982e8 vasugupta014-ai <vasugupta014@gmail.com> 1785855614 +0530	commit: 10 changes
+4abe92e2c5323cdcf028db268599292fe1a982e8 a24f9c3e2e3cc241e009d3ef087701d2e4d4ef2a vasugupta014-ai <vasugupta014@gmail.com> 1785859206 +0530	commit: chat and mail
+a24f9c3e2e3cc241e009d3ef087701d2e4d4ef2a 9b35a18242159161f749d0aab8148589a5f655f0 vasugupta014-ai <vasugupta014@gmail.com> 1785859916 +0530	commit: email and chat full
+9b35a18242159161f749d0aab8148589a5f655f0 2b7d49b04aaeb2d02dc2c147467494796304b631 vasugupta014-ai <vasugupta014@gmail.com> 1785921015 +0530	commit: sheet to drawer sidbar
+2b7d49b04aaeb2d02dc2c147467494796304b631 ef038364f1cb1bb443c053993bb61a314ee0c4da vasugupta014-ai <vasugupta014@gmail.com> 1785935798 +0530	commit: added pwa
+ef038364f1cb1bb443c053993bb61a314ee0c4da 0fc050405444b3a329b1f2885f1bc1dfc5753afb vasugupta014-ai <vasugupta014@gmail.com> 1785944523 +0530	commit: improved theme toggling
+0fc050405444b3a329b1f2885f1bc1dfc5753afb edef6d292799e100ed57e76ed209233e44aa6067 vasugupta014-ai <vasugupta014@gmail.com> 1786085788 +0530	pull --ff --recurse-submodules --progress origin: Fast-forward
+edef6d292799e100ed57e76ed209233e44aa6067 0c23278d088cb338f758b4f8fbd4f8185dd9aaf2 vasugupta014-ai <vasugupta014@gmail.com> 1786095213 +0530	commit: layout changes
+0c23278d088cb338f758b4f8fbd4f8185dd9aaf2 af516f4037ce64e441753774a5da5575679fad78 vasugupta014-ai <vasugupta014@gmail.com> 1786106794 +0530	commit: added themes
+af516f4037ce64e441753774a5da5575679fad78 83d716576dbbdb828361b233542a79f4a0dcb453 vasugupta014-ai <vasugupta014@gmail.com> 1786115156 +0530	commit: updateMetaTheme
+83d716576dbbdb828361b233542a79f4a0dcb453 dafbb7f3b98b3dc48b03dd0afe19a6cb06e3fa89 vasugupta014-ai <vasugupta014@gmail.com> 1786165721 +0530	pull --ff --recurse-submodules --progress origin: Fast-forward
+dafbb7f3b98b3dc48b03dd0afe19a6cb06e3fa89 2302bfae5f4d59ecbc0fa9504cd84c7f5f6f1885 vasugupta014-ai <vasugupta014@gmail.com> 1786180080 +0530	commit: 25 changes auth added
+2302bfae5f4d59ecbc0fa9504cd84c7f5f6f1885 c937945cca1d2860b33dac693072bd82a4c00916 vasugupta014-ai <vasugupta014@gmail.com> 1786180284 +0530	commit: removed auth files
+c937945cca1d2860b33dac693072bd82a4c00916 2485f36af4cc83ebbc24439f5dceedaaddb99c97 vasugupta014-ai <vasugupta014@gmail.com> 1786201400 +0530	commit: added redirects
+2485f36af4cc83ebbc24439f5dceedaaddb99c97 be9e6df01ec4d302db143701cf53899de24d3ae5 vasugupta014-ai <vasugupta014@gmail.com> 1786251576 +0530	pull --ff --recurse-submodules --progress origin: Fast-forward
+be9e6df01ec4d302db143701cf53899de24d3ae5 76d43c943372ce3460e154be27f36fb68ee9b53d vasugupta014-ai <vasugupta014@gmail.com> 1786260597 +0530	commit: fix more lag
+76d43c943372ce3460e154be27f36fb68ee9b53d 2b7e0d780fb6591b206836fdb1f25cdecfd9c45b vasugupta014-ai <vasugupta014@gmail.com> 1786273633 +0530	commit: added sqlite
+2b7e0d780fb6591b206836fdb1f25cdecfd9c45b 5c01cce71577044465bb2f38786a21f5e55b93f5 vasugupta014-ai <vasugupta014@gmail.com> 1786278051 +0530	commit: fixed
+5c01cce71577044465bb2f38786a21f5e55b93f5 66d8b94a56f0037971b646657a89ed5f52c973fb vasugupta014-ai <vasugupta014@gmail.com> 1786344853 +0530	commit: added mongo
+66d8b94a56f0037971b646657a89ed5f52c973fb 978b535108fcdcb168496a040b0f46f52aa1534f vasugupta014-ai <vasugupta014@gmail.com> 1786376950 +0530	commit: added trade and account crud
+978b535108fcdcb168496a040b0f46f52aa1534f 14143958f260ca8eeec165b003d88b2687a28117 vasugupta014-ai <vasugupta014@gmail.com> 1786441648 +0530	commit: remove serwist for now
+14143958f260ca8eeec165b003d88b2687a28117 9dc6d626baf527cccd5bbbd9644e39e844e7819e vasugupta014-ai <vasugupta014@gmail.com> 1786441747 +0530	commit: Update .env
+9dc6d626baf527cccd5bbbd9644e39e844e7819e 3747530ecc5b6c218c6bf48da4a8cecc45c658c6 vasugupta014-ai <vasugupta014@gmail.com> 1786462037 +0530	commit: nothing important
+3747530ecc5b6c218c6bf48da4a8cecc45c658c6 416cb433cf67cc6fb7a20c287b6f06961137d931 vasugupta014-ai <vasugupta014@gmail.com> 1786721628 +0530	commit: use client fully supported
+416cb433cf67cc6fb7a20c287b6f06961137d931 5a57706b91ef07845b0e2dd735b33229ed11e892 vasugupta014-ai <vasugupta014@gmail.com> 1786721684 +0530	commit: api added
+5a57706b91ef07845b0e2dd735b33229ed11e892 d23260b6335cc4a0139e9b6f89cd4e324c76b34a vasugupta014-ai <vasugupta014@gmail.com> 1786721915 +0530	commit: serwist work
