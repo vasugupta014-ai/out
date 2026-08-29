@@ -1,0 +1,172 @@
+1:"$Sreact.fragment"
+b:I[68027,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/0udnqtj2kjqo3.js","/_next/static/chunks/2kp_prq44h54-.js","/_next/static/chunks/34w-wibzqc4qz.js","/_next/static/chunks/037jvl1jnk2bo.js","/_next/static/chunks/1fspwnrm94fu_.js","/_next/static/chunks/1qceyq20mxdtn.js","/_next/static/chunks/29hux9rcapm77.js","/_next/static/chunks/22l2ymexcdwjt.js","/_next/static/chunks/0hnu3x7u5c73s.js"],"default",1]
+:HL["/_next/static/chunks/3cpmsg-s0mghk.css","style"]
+2:Te8c,
+    (function () {
+      try {
+        var root = document.documentElement;
+        var REGISTRY = {"theme_mode":{"values":["light","dark","system"],"defaultValue":"dark","persistence":"client-cookie","attribute":"data-theme-mode"},"theme_preset":{"values":["default","brutalist","soft-pop","tangerine","dark-forge","claude"],"defaultValue":"default","persistence":"client-cookie","attribute":"data-theme-preset"},"content_layout":{"values":["centered","full-width"],"defaultValue":"full-width","persistence":"client-cookie","attribute":"data-content-layout"},"navbar_style":{"values":["sticky","scroll"],"defaultValue":"sticky","persistence":"client-cookie","attribute":"data-navbar-style"},"sidebar_variant":{"values":["sidebar","inset","floating"],"defaultValue":"sidebar","persistence":"client-cookie","attribute":"data-sidebar-variant"},"sidebar_collapsible":{"values":["icon","offcanvas"],"defaultValue":"icon","persistence":"client-cookie","attribute":"data-sidebar-collapsible"},"variant":{"values":["sidebar","inset","floating"],"defaultValue":"sidebar","persistence":"client-cookie","attribute":"data-variant"},"collapsible":{"values":["icon","offcanvas"],"defaultValue":"icon","persistence":"client-cookie","attribute":"data-collapsible"},"sidebar_state":{"values":["true","false"],"defaultValue":"true","persistence":"client-cookie","attribute":"data-sidebar-state"},"user_status":{"values":["1","0"],"defaultValue":"0","persistence":"client-cookie","attribute":"data-user_status"}};
+
+        function readCookie(name) {
+          var match = document.cookie.split("; ").find(function(c) {
+            return c.startsWith(name + "=");
+          });
+          return match ? decodeURIComponent(match.split("=")[1]) : null;
+        }
+
+        function readLocal(name) {
+          try {
+            return window.localStorage.getItem(name);
+          } catch (e) {
+            return null;
+          }
+        }
+
+        function readPreference(key, definition) {
+          var mode = definition.persistence;
+          var value = null;
+
+          if (mode === "localStorage") {
+            value = readLocal(key);
+          }
+
+          if (!value && (mode === "client-cookie" || mode === "server-cookie")) {
+            value = readCookie(key);
+          }
+
+          return definition.values.indexOf(value) >= 0 ? value : definition.defaultValue;
+        }
+
+        var preferences = {};
+
+        Object.keys(REGISTRY).forEach(function(key) {
+          var definition = REGISTRY[key];
+          var value = readPreference(key, definition);
+
+          preferences[key] = value;
+          root.setAttribute(definition.attribute, value);
+        });
+        window.__PREFERENCE_VALUES__ = preferences;
+
+        var mode = preferences.theme_mode;
+        var resolvedMode =
+          mode === "system" && window.matchMedia
+            ? (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")
+            : mode === "dark"
+              ? "dark"
+              : "light";
+
+        root.classList.toggle("dark", resolvedMode === "dark");
+        root.style.colorScheme = resolvedMode;
+        
+        let savedThemeColor = localStorage.getItem("theme-color");
+        if(!savedThemeColor) {
+            savedThemeColor = resolvedMode === "dark" ? "#000000" : "#ffffff";
+        }
+        var metaTag = document.querySelector('meta[name="theme-color"]');
+
+        if (!metaTag) {
+          metaTag = document.createElement('meta');
+          metaTag.setAttribute('name', 'theme-color');
+          document.head.appendChild(metaTag);
+        }
+
+        metaTag.setAttribute('content', savedThemeColor);
+
+      } catch (e) {
+        console.warn("ThemeBootScript error:", e);
+      }
+    })();
+  9:X
+0:{"P":null,"c":["","user","new-password",""],"q":"","i":false,"f":[[["",{"children":["(authUser)",{"children":["user",{"children":["new-password",{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3cpmsg-s0mghk.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0h2qsuyze9ds1.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0udnqtj2kjqo3.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/2kp_prq44h54-.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/34w-wibzqc4qz.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/037jvl1jnk2bo.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/1fspwnrm94fu_.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/_next/static/chunks/1qceyq20mxdtn.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/_next/static/chunks/29hux9rcapm77.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/_next/static/chunks/22l2ymexcdwjt.js","async":true,"nonce":"$undefined"}],["$","script","script-9",{"src":"/_next/static/chunks/0hnu3x7u5c73s.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"overflow-hidden group/html","data-theme-mode":"dark","data-theme-preset":"default","data-content-layout":"full-width","data-navbar-style":"sticky","data-sidebar-variant":"sidebar","data-sidebar-collapsible":"icon","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3"]}],"$L4"]}]]}],{"children":["$L5",{"children":["$L6",{"children":["$L7",{"children":["$L8",{},null,false,null]},null,false,"$9"]},null,false,null]},null,false,"$9"]},null,false,null],"$La",false]],"m":"$undefined","G":["$b",["$Lc"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"lmDWlR_6jfqjhhJ8WZOcM"}
+e:I[57200,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/0udnqtj2kjqo3.js","/_next/static/chunks/2kp_prq44h54-.js","/_next/static/chunks/34w-wibzqc4qz.js","/_next/static/chunks/037jvl1jnk2bo.js","/_next/static/chunks/1fspwnrm94fu_.js","/_next/static/chunks/1qceyq20mxdtn.js","/_next/static/chunks/29hux9rcapm77.js","/_next/static/chunks/22l2ymexcdwjt.js","/_next/static/chunks/0hnu3x7u5c73s.js"],"default"]
+f:I[18421,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/0udnqtj2kjqo3.js","/_next/static/chunks/2kp_prq44h54-.js","/_next/static/chunks/34w-wibzqc4qz.js","/_next/static/chunks/037jvl1jnk2bo.js","/_next/static/chunks/1fspwnrm94fu_.js","/_next/static/chunks/1qceyq20mxdtn.js","/_next/static/chunks/29hux9rcapm77.js","/_next/static/chunks/22l2ymexcdwjt.js","/_next/static/chunks/0hnu3x7u5c73s.js"],"default"]
+10:I[46798,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/0udnqtj2kjqo3.js","/_next/static/chunks/2kp_prq44h54-.js","/_next/static/chunks/34w-wibzqc4qz.js","/_next/static/chunks/037jvl1jnk2bo.js","/_next/static/chunks/1fspwnrm94fu_.js","/_next/static/chunks/1qceyq20mxdtn.js","/_next/static/chunks/29hux9rcapm77.js","/_next/static/chunks/22l2ymexcdwjt.js","/_next/static/chunks/0hnu3x7u5c73s.js"],"TooltipProvider"]
+11:I[51027,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/0udnqtj2kjqo3.js","/_next/static/chunks/2kp_prq44h54-.js","/_next/static/chunks/34w-wibzqc4qz.js","/_next/static/chunks/037jvl1jnk2bo.js","/_next/static/chunks/1fspwnrm94fu_.js","/_next/static/chunks/1qceyq20mxdtn.js","/_next/static/chunks/29hux9rcapm77.js","/_next/static/chunks/22l2ymexcdwjt.js","/_next/static/chunks/0hnu3x7u5c73s.js"],"PreferencesStoreProvider"]
+12:I[39756,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/0udnqtj2kjqo3.js","/_next/static/chunks/2kp_prq44h54-.js","/_next/static/chunks/34w-wibzqc4qz.js","/_next/static/chunks/037jvl1jnk2bo.js","/_next/static/chunks/1fspwnrm94fu_.js","/_next/static/chunks/1qceyq20mxdtn.js","/_next/static/chunks/29hux9rcapm77.js","/_next/static/chunks/22l2ymexcdwjt.js","/_next/static/chunks/0hnu3x7u5c73s.js"],"default"]
+13:I[37457,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/0udnqtj2kjqo3.js","/_next/static/chunks/2kp_prq44h54-.js","/_next/static/chunks/34w-wibzqc4qz.js","/_next/static/chunks/037jvl1jnk2bo.js","/_next/static/chunks/1fspwnrm94fu_.js","/_next/static/chunks/1qceyq20mxdtn.js","/_next/static/chunks/29hux9rcapm77.js","/_next/static/chunks/22l2ymexcdwjt.js","/_next/static/chunks/0hnu3x7u5c73s.js"],"default"]
+14:I[29306,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/0udnqtj2kjqo3.js","/_next/static/chunks/2kp_prq44h54-.js","/_next/static/chunks/34w-wibzqc4qz.js","/_next/static/chunks/037jvl1jnk2bo.js","/_next/static/chunks/1fspwnrm94fu_.js","/_next/static/chunks/1qceyq20mxdtn.js","/_next/static/chunks/29hux9rcapm77.js","/_next/static/chunks/22l2ymexcdwjt.js","/_next/static/chunks/0hnu3x7u5c73s.js","/_next/static/chunks/2r7_d242dlugo.js"],"default"]
+15:I[13354,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/0udnqtj2kjqo3.js","/_next/static/chunks/2kp_prq44h54-.js","/_next/static/chunks/34w-wibzqc4qz.js","/_next/static/chunks/037jvl1jnk2bo.js","/_next/static/chunks/1fspwnrm94fu_.js","/_next/static/chunks/1qceyq20mxdtn.js","/_next/static/chunks/29hux9rcapm77.js","/_next/static/chunks/22l2ymexcdwjt.js","/_next/static/chunks/0hnu3x7u5c73s.js"],"Toaster"]
+16:I[5014,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/0udnqtj2kjqo3.js","/_next/static/chunks/2kp_prq44h54-.js","/_next/static/chunks/34w-wibzqc4qz.js","/_next/static/chunks/037jvl1jnk2bo.js","/_next/static/chunks/1fspwnrm94fu_.js","/_next/static/chunks/1qceyq20mxdtn.js","/_next/static/chunks/29hux9rcapm77.js","/_next/static/chunks/22l2ymexcdwjt.js","/_next/static/chunks/0hnu3x7u5c73s.js","/_next/static/chunks/2-cw_u1xx0ov5.js"],"default"]
+17:I[72436,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/0udnqtj2kjqo3.js","/_next/static/chunks/2kp_prq44h54-.js","/_next/static/chunks/34w-wibzqc4qz.js","/_next/static/chunks/037jvl1jnk2bo.js","/_next/static/chunks/1fspwnrm94fu_.js","/_next/static/chunks/1qceyq20mxdtn.js","/_next/static/chunks/29hux9rcapm77.js","/_next/static/chunks/22l2ymexcdwjt.js","/_next/static/chunks/0hnu3x7u5c73s.js","/_next/static/chunks/2-cw_u1xx0ov5.js"],"Separator"]
+18:I[47257,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/0udnqtj2kjqo3.js","/_next/static/chunks/2kp_prq44h54-.js","/_next/static/chunks/34w-wibzqc4qz.js","/_next/static/chunks/037jvl1jnk2bo.js","/_next/static/chunks/1fspwnrm94fu_.js","/_next/static/chunks/1qceyq20mxdtn.js","/_next/static/chunks/29hux9rcapm77.js","/_next/static/chunks/22l2ymexcdwjt.js","/_next/static/chunks/0hnu3x7u5c73s.js"],"ClientPageRoot"]
+19:I[66675,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/0udnqtj2kjqo3.js","/_next/static/chunks/2kp_prq44h54-.js","/_next/static/chunks/34w-wibzqc4qz.js","/_next/static/chunks/037jvl1jnk2bo.js","/_next/static/chunks/1fspwnrm94fu_.js","/_next/static/chunks/1qceyq20mxdtn.js","/_next/static/chunks/29hux9rcapm77.js","/_next/static/chunks/22l2ymexcdwjt.js","/_next/static/chunks/0hnu3x7u5c73s.js","/_next/static/chunks/2-cw_u1xx0ov5.js","/_next/static/chunks/0i8vo3-5e-udz.js","/_next/static/chunks/0pc_n6p8g103c.js"],"default"]
+1c:I[97367,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/0udnqtj2kjqo3.js","/_next/static/chunks/2kp_prq44h54-.js","/_next/static/chunks/34w-wibzqc4qz.js","/_next/static/chunks/037jvl1jnk2bo.js","/_next/static/chunks/1fspwnrm94fu_.js","/_next/static/chunks/1qceyq20mxdtn.js","/_next/static/chunks/29hux9rcapm77.js","/_next/static/chunks/22l2ymexcdwjt.js","/_next/static/chunks/0hnu3x7u5c73s.js"],"OutletBoundary"]
+1d:"$Sreact.suspense"
+1f:I[97367,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/0udnqtj2kjqo3.js","/_next/static/chunks/2kp_prq44h54-.js","/_next/static/chunks/34w-wibzqc4qz.js","/_next/static/chunks/037jvl1jnk2bo.js","/_next/static/chunks/1fspwnrm94fu_.js","/_next/static/chunks/1qceyq20mxdtn.js","/_next/static/chunks/29hux9rcapm77.js","/_next/static/chunks/22l2ymexcdwjt.js","/_next/static/chunks/0hnu3x7u5c73s.js"],"ViewportBoundary"]
+21:I[97367,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/0udnqtj2kjqo3.js","/_next/static/chunks/2kp_prq44h54-.js","/_next/static/chunks/34w-wibzqc4qz.js","/_next/static/chunks/037jvl1jnk2bo.js","/_next/static/chunks/1fspwnrm94fu_.js","/_next/static/chunks/1qceyq20mxdtn.js","/_next/static/chunks/29hux9rcapm77.js","/_next/static/chunks/22l2ymexcdwjt.js","/_next/static/chunks/0hnu3x7u5c73s.js"],"MetadataBoundary"]
+d:T668,
+    (function () {
+      try {
+        function readCookie(name) {
+          var match = document.cookie.split("; ").find(function(c) {
+            return c.startsWith(name + "=");
+          });
+          return match ? decodeURIComponent(match.split("=")[1]) : null;
+        }
+
+        function readLocal(name) {
+          try {
+            return window.localStorage.getItem(name);
+          } catch (e) {
+            return null;
+          }
+        }
+
+      var userDataRaw = readCookie("user_data");
+
+      if (!userDataRaw) {
+        var currentPath = window.location.pathname;
+
+        var publicRoutes = [
+          '/user/login/',
+          '/user/register/',
+          '/user/forgot-password/',
+          '/user/new-password/',
+          '/user/validate-code/'
+        ];
+
+        var isUserRoute = currentPath.startsWith('/user/');
+        var isPublicRoute = publicRoutes.includes(currentPath);
+
+        if (isUserRoute && !isPublicRoute) {
+          window.location.replace('/user/login/');
+        }
+      }
+
+      if (userDataRaw) {
+        var userData = JSON.parse(userDataRaw);
+        var currentPath = window.location.pathname;
+        
+        if (userData && userData.profile_complete === 0) {
+          if (currentPath !== '/user/profile-data/') {
+            window.location.replace('/user/profile-data/');
+          }
+        } else if (userData && userData.tv === 0) {
+          if (currentPath !== '/user/authorization/') {
+            window.location.replace('/user/authorization/');
+          }
+        }
+      }
+
+        
+
+      } catch (e) {
+        console.warn("UserStatus error:", e);
+      }
+    })();
+  3:["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$d"}}]
+4:["$","body",null,{"className":"min-h-screen antialiased","children":["$","$Le",null,{"children":[["$","$Lf",null,{"showSpinner":false,"color":"var(--foreground)","height":1.5,"initialPosition":0.01,"speed":200,"easing":"ease-in","shadow":"0px 0px 20px 3px var(--foreground)"}],["$","$L10",null,{"children":["$","$L11",null,{"initialValues":{"theme_mode":"dark","theme_preset":"default","content_layout":"full-width","navbar_style":"sticky","sidebar_variant":"sidebar","sidebar_collapsible":"icon","variant":"sidebar","collapsible":"icon","sidebar_state":"true","user_status":"0"},"children":[["$","$L12",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L13",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L14",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L15",null,{}]]}]}]]}]}]
+5:["$","$1","c",{"children":[null,["$","$L12",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L13",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L14",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+6:["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/2-cw_u1xx0ov5.js","async":true,"nonce":"$undefined"}]],["$","main",null,{"children":["$","div",null,{"className":"grid h-dvh overflow-y-auto scrollbar-thin justify-center p-4 lg:grid-cols-2","children":[["$","div",null,{"className":"relative order-2 hidden h-full rounded-3xl bg-primary lg:flex","children":[["$","div",null,{"className":"absolute top-10 space-y-1 px-10 text-primary-foreground","children":[["$","$L16",null,{"ref":"$undefined","iconNode":[["path",{"d":"M15 6v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3V6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3","key":"11bfej"}]],"className":"lucide-command size-10"}],["$","h1",null,{"className":"font-medium text-2xl","children":"Starter User"}],["$","p",null,{"className":"text-sm","children":"Dummy Text, Dummy Text, Dummy Text, Dummy Text,"}]]}],["$","div",null,{"className":"absolute bottom-10 flex w-full justify-between px-10","children":[["$","div",null,{"className":"flex-1 space-y-1 text-primary-foreground","children":[["$","h2",null,{"className":"font-medium","children":"Dummy Text,Dummy Text,"}],["$","p",null,{"className":"text-sm","children":"Dummy Text,Dummy Text,Dummy Text, Dummy Text,Dummy Text, Dummy Text,"}]]}],["$","$L17",null,{"orientation":"vertical","className":"mx-3 h-auto!"}],["$","div",null,{"className":"flex-1 space-y-1 text-primary-foreground","children":[["$","h2",null,{"className":"font-medium","children":"Dummy Text?"}],["$","p",null,{"className":"text-sm","children":"Dummy Text,Dummy Text,Dummy Text,Dummy Text,Dummy Text,Dummy Text,Dummy Text,"}]]}]]}]]}],["$","div",null,{"className":"relative order-1 flex h-full","children":["$","$L12",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L13",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]
+7:["$","$1","c",{"children":[null,["$","$L12",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L13",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+8:["$","$1","c",{"children":[["$","$L18",null,{"Component":"$19","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@1a","$@1b"]}}],[["$","script","script-0",{"src":"/_next/static/chunks/0i8vo3-5e-udz.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0pc_n6p8g103c.js","async":true,"nonce":"$undefined"}]],["$","$L1c",null,{"children":["$","$1d",null,{"name":"Next.MetadataOutlet","children":"$@1e"}]}]]}]
+a:["$","$1","h",{"children":[null,["$","$L1f",null,{"children":"$L20"}],["$","div",null,{"hidden":true,"children":["$","$L21",null,{"children":["$","$1d",null,{"name":"Next.Metadata","children":"$L22"}]}]}],null]}]
+c:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3cpmsg-s0mghk.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+9:C
+1a:{}
+1b:"$8:props:children:0:props:serverProvidedParams:params"
+20:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+23:I[27201,["/_next/static/chunks/0h2qsuyze9ds1.js","/_next/static/chunks/0udnqtj2kjqo3.js","/_next/static/chunks/2kp_prq44h54-.js","/_next/static/chunks/34w-wibzqc4qz.js","/_next/static/chunks/037jvl1jnk2bo.js","/_next/static/chunks/1fspwnrm94fu_.js","/_next/static/chunks/1qceyq20mxdtn.js","/_next/static/chunks/29hux9rcapm77.js","/_next/static/chunks/22l2ymexcdwjt.js","/_next/static/chunks/0hnu3x7u5c73s.js"],"IconMark"]
+1e:null
+22:[["$","title","0",{"children":"Starter NextJs - Modern Next.js Dashboard Starter Template"}],["$","meta","1",{"name":"description","content":"Starter NextJs is a modern, open-source dashboard starter template built with Next.js 16, Tailwind CSS v4, and shadcn/ui. Perfect for SaaS apps, admin panels, and internal tools—fully customizable and production-ready."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L23","3",{}]]
